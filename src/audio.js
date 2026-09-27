@@ -1,6 +1,6 @@
 /* Tin Soldiers: Nova - synthesized layered audio (WebAudio). Starts only after a user gesture. */
 const bgMusic = new Audio(
-  "../assets/music/starostin-documentary-sad-sorrowful-music-479773.mp3",
+  "./assets/music/starostin-documentary-sad-sorrowful-music-479773.mp3",
 );
 
 bgMusic.loop = true;

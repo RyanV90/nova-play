@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tin Soldiers: Nova - Full Team Battles</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="gl"></canvas>
+  <canvas id="ov"></canvas>
+  <div id="hud" class="hidden">
+    <div id="top">
+      <div class="res"><span class="ico"></span>Aether <b id="rRes">0</b> <small id="rInc"></small></div>
+      <div class="res" id="rSupWrap">Supply <b id="rSup">0/0</b></div>
+      <div id="teamBar"></div>
+      <div class="spacer"></div>
+      <div id="rSpeed"></div>
+      <button id="powBtn" class="hidden topbtn" type="button"></button>
+      <button id="abilBtn" class="hidden topbtn" type="button"></button>
+      <button id="btnHelp" class="topbtn" type="button">Help (F1)</button>
+      <button id="btnMenu" class="topbtn" type="button">Menu (Esc)</button>
+    </div>
+    <div id="subbar"><span class="clk">Time <b id="rTime">0:00</b></span><span id="rObj"></span></div>
+    <div id="alerts"></div>
+    <div id="hint" class="hidden"></div>
+    <div id="specBanner" class="hidden"></div>
+    <div id="bottom">
+      <div id="mmWrap"><canvas id="mm" width="256" height="256"></canvas></div>
+      <div id="selPanel"></div>
+      <div id="cmdPanel"></div>
+    </div>
+  </div>
+  <div id="tip" class="hidden"></div>
+  <div id="overlays"></div>
+  <div id="fatal" class="hidden"></div>
+  <noscript>Tin Soldiers: Nova needs JavaScript and WebGL.</noscript>
+</div>
+<script src="vendor/three.min.js"></script>
+<script src="src/data.js"></script>
+<script src="src/maps.js"></script>
+<script src="src/world.js"></script>
+<script src="src/sim.js"></script>
+<script src="src/ai.js"></script>
+<script src="src/store.js"></script>
+<script src="src/models.js"></script>
+<script src="src/render.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/ui.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

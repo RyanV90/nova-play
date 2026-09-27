@@ -1,5 +1,5 @@
-package.json
-package-lock.json
-electron-main.js
-index.html
-src/
+node_modules/
+dist/
+out/
+*.log
+*.mjs
